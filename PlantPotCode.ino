@@ -13,20 +13,20 @@ const int SOIL_PIN = 39;
 const int SERVO_PIN = 2;
 
 // WiFi credentials
-const char* WIFI_NAME = "Stevens-IoT";
-const char* WIFI_PASS = "nMN882cmg7";
+const char* WIFI_NAME = "****";
+const char* WIFI_PASS = "****";
 
 // MQTT configuration
-const char* MQTT_SERVER = "98db5050a791439c98eac188febfecbe.s2.eu.hivemq.cloud";
-const char* MQTT_USER = "stevens";
-const char* MQTT_PASS = "Stevens@1870";
-const int MQTT_PORT = 8883;
+const char* MQTT_SERVER = "****";
+const char* MQTT_USER = "****";
+const char* MQTT_PASS = "****";
+const int MQTT_PORT = ****;
 
 // Team information
-const String YEAR = "2023";
-const String CLASS = "ENGR111";
-const String SECTION = "C";
-const String GROUP_NUMBER = "N1";
+const String YEAR = "****";
+const String CLASS = "****";
+const String SECTION = "****";
+const String GROUP_NUMBER = "****";
 String PAYLOAD;
 
 // Sensor configuration
@@ -93,3 +93,4 @@ void loop() {
   client.publish(humTopic.c_str(), pubString);
   myservo.detach();
 }
+
